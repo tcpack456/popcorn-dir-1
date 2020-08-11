@@ -146,8 +146,8 @@ function list_scouts($arg)
       </div>
     </div>
 
+<!-- Uncomment here to share your QR code. Be sure to replace the QR code image in ./img directory.
     <div class="row">
-
       <div class="col-md-4">
         &nbsp;
       </div>
@@ -162,7 +162,7 @@ function list_scouts($arg)
         &nbsp;
       </div>
     </div>
-
+-->
     <hr>
 
   </div> <!-- /container -->
@@ -171,6 +171,7 @@ function list_scouts($arg)
 </main>
 
 <footer class="container">
+  <p><a href="https://github.com/dimwell/popcorn-dir" target="_blank">Built using GitHub.</a>
   <p>&copy; 2020, Cub Scout Pack 123 - Anytown, USA
   <br>Part of the <a href="http://scouting.org/" target="_blank">Boy Scouts of America</a>
 </footer>
