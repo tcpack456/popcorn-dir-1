@@ -8,13 +8,24 @@ I put this site together to help us organize our online sales and make it easier
 
 You can see our live example here: http://hspack361.com/popcorn
 
-## How to Use
-
-* Coming soon!
-
 ## Prerequisites
 
 This site is designed to be lightweight and portable. It uses Bootstrap 4.5 via CDN for the layout and design. It relies only on PHP for some basic file processing. Anyone with some basic web programming skills should be able to modify this to fit their needs without a ton of work.
+
+## How to Use These Files
+
+You should be able to download these files to your web server, update the text files in `./data`, and have a working solution. Anything more complicated may require updates to `index.php` and `random.php`.
+
+## File Descriptions
+
+* `./index.php` - This is the main page. It'll read the data files in `./data` and generate the listing automatically. The button on this page simply links to `random.php`.
+* `./random.php` - This will read all of the data files in `./data`, generate a random URL from all of the available URLs, and redirect the user to the randomly selected URL.
+* `./data/*.txt` - These files are simple comma-separated lists of names and Trails End referral codes. You can get a master list of these codes from your unit fundraising coordinator. If you add, remove, or rename any files in this directory, be sure to edit `index.php` and `random.php` to reference the new files.
+* `./img/*.{jpg|png}` - These are used in `index.php` for visual interest. You can replace these files and update the `<img>` tags in `index.php` or you can simply remove the `<img>` tags altogether.
+
+## Contributing
+
+If you find a bug or have an idea for improving this simple project, please feel free to fork the project and send a pull request.
 
 ## Licensing
 
