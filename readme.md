@@ -10,7 +10,9 @@ You can see our live example here: http://hspack361.com/popcorn
 
 ## Prerequisites
 
-This site is designed to be lightweight and portable. It uses Bootstrap 4.5 via CDN for the layout and design. It relies only on PHP for some basic file processing. Anyone with some basic web programming skills should be able to modify this to fit their needs without a ton of work.
+This site is designed to be lightweight and portable. It uses Bootstrap 4.5 via CDN for the layout and design. It relies only on PHP for some basic file processing. 
+
+Anyone with some basic web programming skills should be able to modify this to fit their needs without a ton of work. I don't have much free time for tech support, but I'll answer questions when I can.
 
 ## How to Use These Files
 
